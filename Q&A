@@ -1,0 +1,22 @@
+1. How would you deploy this application in production?
+In production, the application can be deployed on a server or a cluster of servers managed by a cloud provider such as Amazon Web Services (AWS) or Google Cloud Platform (GCP). The application should be containerized using Docker and deployed using a container orchestration tool such as Kubernetes to manage the scaling and availability of the application. The AWS SQS Queue and Postgres database can also be hosted in the cloud.
+
+2. What other components would you want to add to make this production ready?
+To make the application production ready, the following components should be added:
+
+Monitoring and logging: A monitoring tool such as CloudWatch or Logstash can be used to monitor the performance and logs of the application.
+
+Error handling: A comprehensive error handling mechanism should be implemented to handle errors in the application.
+
+Security: Security measures should be implemented to secure the data and access to the application.
+
+Testing: Automated testing should be implemented to ensure that the application is working as expected.
+
+3. How can this application scale with a growing data set?
+The application can be scaled by increasing the number of instances of the application running in parallel. This can be achieved using a container orchestration tool such as Kubernetes. The AWS SQS Queue and Postgres database can also be scaled as needed to handle the growing data set.
+
+4. How can PII be recovered later on?
+The masked PII data can be recovered by reversing the hash function used to mask the data. This should be done in a secure manner and with proper authorization. A backup of the masked data should also be maintained for recovery purposes.
+
+5. Where and how will your application run?
+The application can run on a server or a cluster of servers managed by a cloud provider such as AWS or GCP. The application should be containerized using Docker and deployed using a container orchestration tool such as Kubernetes to manage the scaling and availability of the application. The AWS SQS Queue and Postgres database can also be hosted in the cloud.
