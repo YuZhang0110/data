@@ -4,7 +4,7 @@
 ```apt install postgresql-client```
 ```pip install awscli-local```
 
-# To ruun
+# To run
 type this in your terminal
 
 ```
